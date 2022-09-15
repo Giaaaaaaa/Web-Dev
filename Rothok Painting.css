@@ -1,0 +1,51 @@
+
+
+.frame {
+    border: 27px solid black;
+    width: 550px;
+    /*高度没有设置，让里面的内容自动填充后形成高度*/
+    padding: 20px;
+}
+
+.canvas {
+    background-color: antiquewhite;
+    width: 550px;
+    height: 600px;
+    padding: 10px auto;
+    filter: blur(2px);
+    overflow: hidden;
+}
+
+.one {
+    background-color: burlywood;
+    filter: blur(3);
+    border-radius: 3px;
+    width: 455px;
+    height: 210px;
+    margin: 15px auto;
+    transform: rotate(0.6deg);
+    box-shadow: 0 0 3px 3px burlywood;
+}
+
+.two {
+    background-color: aquamarine;
+    width: 410px;
+    height: 150px;
+    padding: 15px auto;
+    margin: 15px auto;
+    transform: rotate(-0.3deg);
+    box-shadow: 0 0 5px 4px aquamarine;
+    border-radius: 2px 5px;
+
+}
+
+.three {
+    background-color: yellowgreen;
+    width: 475px;
+    height: 175px;
+    margin: 25px auto;
+    transform: rotate(0.4deg);
+    box-shadow: 0 0 3px 4px yellowgreen;
+    border-radius: 2px 5px 6px 7px;
+
+}
