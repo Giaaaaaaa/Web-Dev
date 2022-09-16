@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body { 
+    background-color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*不设置height，让内容自动填充height*/
+.label {
+    width: 300px;
+    border: 5px solid black;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+h1 {
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+.calories-info h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+}
+
+.calories-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+}
+
+
+/*取消行间距，变得紧凑*/
+p {
+    margin: 0;
+}
+
+
+.bold {
+    font-weight: 800;
+}
+
+.right {
+    float: right;
+}
+
+.divider {
+    border-bottom: 2px solid brown;
+    margin: 2px 0;
+    clear: right;
+}
+
+.large {
+    height: 10px;
+   
+}
+
+.medium, .large {
+    background-color: brown;
+    border: 0;
+    
+}
+
+.medium {
+    height: 5px;
+}
+
+.indent {
+    margin-left: 1rem;
+}
+
+.dbl-indent {
+    margin-left: 2rem;
+}
+
+.note {
+    padding: 0 8px;
+    text-indent: -8px;
+}
+
+.small-text {
+    font-size: 0.85rem;
+}

@@ -1,0 +1,66 @@
+a {
+    font-family: sans-serif;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(23, 23, 55);
+    border-bottom: 10px double burlywood;
+    padding: 10px;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 10px;
+    max-width: 1400px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+
+}
+
+.gallery::after {
+    content: "";
+    width: 500px;
+}
